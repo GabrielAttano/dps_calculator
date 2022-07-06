@@ -3,8 +3,14 @@
 </h1>
 
 <h3 align="center">
-    Program that calculates DPS for OSRS
+    Program that calculates DPS for OSRS.
 </h3>
+
+<p align="center">
+  <a href="https://github.com/GabrielAttano/dps_calculator/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabrielattano/dps_calculator">
+  </a>
+</p>
 
 <h4 align="center">
 	🚧  Under development  🚧
@@ -12,14 +18,15 @@
 
 ### Features
 
-- [x] DPS calculator for melee
-- [ ] DPS calculator for magic
-- [ ] DPS calculator for ranged
-- [ ] Proper items definition
+- [x] DPS for melee.
+- [ ] DPS for magic.
+- [ ] DPS for ranged.
+- [ ] Finish
+- [ ] Proper items selector.
   - [ ] Weapons
   - [ ] Armour
-- [ ] Proper monster selector
-- [ ] Import levels from OSRS highscores
+- [ ] Proper monster selector.
+- [ ] Fetch levels from OSRS highscores.
 
 ### Requirements
 
