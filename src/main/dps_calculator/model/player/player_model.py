@@ -1,8 +1,8 @@
 from model.player.level_model import Levels
 from model.player.prayer_model import Prayer
 from model.player.gear_model import Gear
+from model.player.magic_model import Magic
 from model.combat.style_model import AttackStyle
-
 class Player:
     """A class to represent a player.
     
