@@ -18,3 +18,8 @@ class LevelService:
             return False
         else:
             return True
+
+    @classmethod
+    def print_levels(cls, levels: dict):
+        for key, value in levels.items():
+            print(f"===== {key}:{value} =====")

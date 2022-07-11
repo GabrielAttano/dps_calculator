@@ -80,3 +80,6 @@ class Levels:
         if skill == None:
             return self.__levels
         return self.__levels[skill.name]
+
+    def get_levels(self, ):
+        return self.__levels
