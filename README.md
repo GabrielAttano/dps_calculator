@@ -21,7 +21,6 @@
 - [x] DPS for melee.
 - [ ] DPS for magic.
 - [ ] DPS for ranged.
-- [ ] Finish
 - [ ] Proper items selector.
   - [ ] Weapons
   - [ ] Armour
