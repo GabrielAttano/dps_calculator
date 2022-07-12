@@ -80,6 +80,6 @@ class PlayerService:
             prayer (PrayerBonuses): The prayer that is going to be activated.
         """
         
-        if len(player.prayers.active_prayer_bonuses) > 1:
+        if len(player.prayers.active_prayer_bonuses) >= 1:
             player.prayers.active_prayer_bonuses.clear()
         player.prayers.active_prayer_bonuses.append(prayer)

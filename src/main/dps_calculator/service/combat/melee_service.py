@@ -136,11 +136,12 @@ class MeleeCalculator:
 
         Args:
             attack_type (AttackType): The attack type that is going to be used.
-            player_target (Player, optional): The player that is going to be the target. Defaults to None.
-            target_defence_level (int, optional): The target defence level, can be ignored if a player
-            is the target. Defaults to 0.
-            target_style_defence_bonus (int, optional): The target defence bonus against that styl, can
-            be ignored if a player is the target. Defaults to 0.
+            player_target (Player, optional): The player that is going to be the target. 
+            Defaults to None.
+            target_defence_level (int, optional): The target defence level. Should be 
+            ignored if player_target is set. Defaults to 0.
+            target_style_defence_bonus (int, optional): The target defence bonus against that style. Should
+            be ignored if player_target is set. Defaults to 0.
 
         Returns:
             int: The value of the defence roll.
