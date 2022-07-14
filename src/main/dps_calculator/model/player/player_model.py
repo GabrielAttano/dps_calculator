@@ -22,3 +22,6 @@ class Player:
         self.style = AttackStyle.ACCURATE
         self.gear = Gear()
 
+    def set_levels(self, levels: Levels):
+        self.levels = levels
+

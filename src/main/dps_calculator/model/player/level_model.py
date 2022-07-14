@@ -5,10 +5,28 @@ from service.player.level_service import LevelService
 class Skills(Enum):
     """A class that represents all the skills."""
     ATTACK = auto()
-    STRENGTH = auto()
     DEFENCE = auto()
+    STRENGTH = auto()
+    HITPOINTS = auto()
     RANGED = auto()
+    PRAYER = auto()
     MAGIC = auto()
+    COOKING = auto()
+    WOODCUTTING = auto()
+    FLETCHING = auto()
+    FISHING = auto()
+    FIREMAKING = auto()
+    CRAFTING = auto()
+    SMITHING = auto()
+    MINING = auto()
+    HERBLORE = auto()
+    AGILITY = auto()
+    THIEVING = auto()
+    SLAYER = auto()
+    FARMING = auto()
+    RUNECRAFTING = auto()
+    HUNTER = auto()
+    CONSTRUCTION = auto()
 
 class Levels:
     """A class to represent the level of all Skills.
@@ -62,3 +80,6 @@ class Levels:
         if skill == None:
             return self.__levels
         return self.__levels[skill.name]
+
+    def get_levels(self, ):
+        return self.__levels

@@ -21,12 +21,11 @@
 - [x] DPS for melee.
 - [ ] DPS for magic.
 - [ ] DPS for ranged.
-- [ ] Finish
 - [ ] Proper items selector.
   - [ ] Weapons
   - [ ] Armour
 - [ ] Proper monster selector.
-- [ ] Fetch levels from OSRS highscores.
+- [x] Fetch levels from OSRS highscores.
 
 ### Requirements
 
