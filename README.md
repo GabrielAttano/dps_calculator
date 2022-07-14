@@ -25,7 +25,7 @@
   - [ ] Weapons
   - [ ] Armour
 - [ ] Proper monster selector.
-- [ ] Fetch levels from OSRS highscores.
+- [x] Fetch levels from OSRS highscores.
 
 ### Requirements
 
